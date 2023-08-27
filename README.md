@@ -18,7 +18,7 @@ To build:
 npm install
 ```
 
-To run the project in local environment using staging data:
+To run the project in local environment:
 
 ```bash
 npm start
