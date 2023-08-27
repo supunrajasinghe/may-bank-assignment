@@ -37,7 +37,6 @@ const LocationList: FC<LocationListProps> = ({ id }) => {
                   edge="end"
                   aria-label="delete"
                   onClick={() => {
-                    console.log(location.id);
                     dispatch(locationActionCreator.removeLocation(location.id));
                   }}
                 >
